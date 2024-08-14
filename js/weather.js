@@ -11,7 +11,7 @@ async function button(){
             console.log(weather);
             document.getElementById("con4").innerHTML=`
             <div class="con3" id="con3">
-                <h2 class="mainn">${weather.name}</h2>
+                <h1 class="mainn">${weather.name}</h1>
                 <h1 class="maint">${(weather.main.temp-273.15).toString().substring(0,4)}<sup>°C</sup></h1>
                 <h3 class="mainw">${weather.weather[0].main}</h3>
                 <div class="mainw" id="m1">
