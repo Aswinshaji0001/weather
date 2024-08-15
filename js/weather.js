@@ -18,7 +18,7 @@ async function button(){
                 <img src="http://openweathermap.org/img/w/${weather.weather[0].icon}.png" alt="icon">
                 </div>
             <div class="tbl">
-                <h3>Weather Details</h3>
+                <h3 class="wd">Weather Details</h3>
                 <table>
                     <tr>
                     <td>
